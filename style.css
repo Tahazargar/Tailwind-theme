@@ -1,0 +1,23 @@
+#header{
+    box-shadow: 0px 10px 9px -5px rgba(0,0,0, .2);
+}
+
+.left-section,
+.right-section{
+    display: flex;
+    align-items: center;
+}
+
+.right-section{
+    direction: rtl;
+}
+
+.right-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.section-one-banner{
+    background-image: url('./assets/images/architect.jpg');
+}
